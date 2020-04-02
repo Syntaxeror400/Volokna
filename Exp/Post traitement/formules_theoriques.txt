@@ -102,6 +102,7 @@ Les trois déformation sont ainsi comparé,
 
 L'ecart relatif entre les 3 déformations par rapport à la déformation experimentales est calculé.
 
+Des plots un peu partout sont les bienvenus
 
 
 
