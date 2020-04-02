@@ -1,0 +1,107 @@
+Liste des parametres enregistrés :
+
+#temps
+t
+
+#acceleration
+accx
+accy
+accz
+
+#vitesse angulaire
+vangx
+vangy
+vangz
+
+#jauge déformation
+j1
+j2
+j3
+j4
+j5
+
+Liste des paramétres connus à l'avance :
+
+#masse au dessus des jauges
+msj
+
+#masse total
+mtot(t)
+
+#modul young alum
+E
+
+#Surface d'un U
+S
+
+#poussée moteur 
+F(t)
+
+#Surface aero
+Sa
+
+#nombre de poutre en U
+n
+
+#pesenteur
+g
+
+#angle fusée
+alpha
+
+#masse volumique air
+rho
+
+#Coefficient de trainée
+Cx
+
+
+
+#FORMULES
+
+
+//les contraintes sont notées "s"
+#contrainte normale theorique
+s = E *N/(S*n)
+
+#effort normal interieur
+N = msj*acc
+
+#acceleration normale à la fusée
+acc = (-f(vx,t )*np.sign(vx) + F(t) - g*np.cos(alpha*3.14159/180)*mtot(t) - mp*v)/mtot(t)
+
+#variation de masse totale
+mp = dmtot/dt
+
+#frottement air
+f(v, t) = 0.5*rho*Sa*v²Cx
+
+//VX EST A OBTENIR PAR INTEGRATION DES ACCELERATIONS SELON X ACCX, au temps t
+//On peut prendre en compte les modification d'orientation / accelerations tangentielles mais ca devient cho 
+
+//la déformation théorique N/(n*S) est à comparé à la déformation experimental epsilon_exp pour chaque jauge
+//on doit alors calculer une poussée en fonction du temps "experimentale" en inversant toutes les equation //successivement, puisque c'est la contrainte experimentale qui est connue.
+
+#Passage de la tension lue sur une jauge à la déformation 
+V_lue = G *Vin*epsilon_exp * k /4 *10^6+ V_ref
+
+avec :
+k le facteur de gauge
+G le gain de la jauge en question
+Vin = 5V
+V_ref =2.5V
+//la relation est a inverser pour trouver espilon_exp
+
+TOUT CA A FAIRE POUR CHAQUE JAUGE
+
+a coté de ca :
+//On compare la deformation calculée précedemment à la deformation calculé avec 
+N = msj*accx
+
+Les trois déformation sont ainsi comparé, 
+
+L'ecart relatif entre les 3 déformations par rapport à la déformation experimentales est calculé.
+
+
+
+
