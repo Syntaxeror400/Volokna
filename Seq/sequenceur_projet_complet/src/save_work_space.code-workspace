@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "sequenceur_projet_complet",
+			"path": "G:\\Drive\\ENSMA\\Fusex 2020\\ELEC\\sequenceur\\sequenceur_projet_complet"
+		},
+		{
+			"name": "experience_software",
+			"path": "G:\\Drive\\ENSMA\\Fusex 2020\\ELEC\\experience\\experience_software"
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.windows": {
+			"PATH": "C:\\Users\\ALEXIS\\.platformio\\penv\\Scripts;C:\\Users\\ALEXIS\\.platformio\\penv;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Android;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\MiKTeX 2.9\\miktex\\bin\\x64\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Users\\ALEXIS\\AppData\\Local\\rodeo\\app-2.5.2\\bin;C:\\Users\\ALEXIS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Android;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\MiKTeX 2.9\\miktex\\bin\\x64\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Users\\ALEXIS\\AppData\\Local\\rodeo\\app-2.5.2\\bin;C:\\Users\\ALEXIS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin",
+			"PLATFORMIO_CALLER": "vscode"
+		}
+	}
+}
